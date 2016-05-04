@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
 	static final String DATABASE = "empapp.db";
 	static final int VERSION = 1;
+	harsh
 	static final String TABLE = "emp";
 	static final String C_ID = "_id";
 	static final String C_ENAME = "ename";
