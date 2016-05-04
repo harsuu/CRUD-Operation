@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:id="@+id/textView1" 
+		android:text="Employee App"
+		android:layout_gravity="center">
+	    
+	</TextView>
+	<EditText 
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:id="@+id/txtEname"
+		android:hint="Enter Employee Name">
+		<requestFocus>
+		    
+		</requestFocus>
+	</EditText>
+	<EditText 
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:id="@+id/txtDesig"
+		android:hint="Enter Designation">
+	    
+	</EditText>
+	<EditText 
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:id="@+id/txtSalary"
+		android:hint="Enter Salary">
+	    
+	</EditText>
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1" 
+		android:layout_width="match_parent">
+		<Button 
+		    android:id="@+id/btnAdd" 
+		    android:text="Add Employee"
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content"></Button>
+		<Button 
+		    android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:id="@+id/btnUpdate"
+			android:text="Update Record">
+		    
+		</Button>
+		<Button 
+		    android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/btnDelete"
+			android:text="Delete ">
+		    
+		</Button>
+	</LinearLayout>
+	<ListView 
+	    android:layout_width="match_parent"
+		android:layout_height="match_parent" 
+		android:id="@+id/lvEmployees"></ListView>
+</LinearLayout>
