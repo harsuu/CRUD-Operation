@@ -3,10 +3,13 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
+	
+	//today
 	static final String DATABASE = "empapp.db";
 	static final int VERSION = 1;
 
 	static final String TABLE = "emp";
+
 	static final String C_ID = "_id";
 	static final String C_ENAME = "ename";
 	static final String C_DESIGNATION = "designation";
